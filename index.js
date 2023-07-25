@@ -42,6 +42,7 @@ let ikinciDeger1 = "erik";
 if (birinciDeger1.length == ikinciDeger1.length) {
   birinciDeger1 = "artmut";
 }
+console.log(birinciDeger1);
 //console.log(birinciDeger1);
 /*
 Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
@@ -102,9 +103,8 @@ Aşağıdakileri oyun isimli fonksiyonu kullanarak yap.
 OYUNUN KURALLARI: Makas Kağıdı yener| Kağıt Taşı yener | Taş Makas'ı yener | veya beraberlik olur.
 */
 
-function oyun(oyuncu, bilgisayar) {
-  /*buraya kodunu yazabilirsin*/
-}
+function oyun(oyuncu, bilgisayar) {}
+/*buraya kodunu yazabilirsin*/
 
 // Şimdi Taş, Kağıt, Makas oyununu bilgisayara karşı oynayalım!
 /*
