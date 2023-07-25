@@ -19,7 +19,12 @@ Aşağıdakileri yap:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
-
+const surucuYasi = 17;
+if (surucuYasi < 18) {
+  console.log("false");
+} else {
+  console.log("true");
+}
 /*
 Görev 1b - Değerler (puanlamaya dahil değildir)
 
@@ -32,9 +37,14 @@ Aşağıdakileri yap:
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
 
+let birinciDeger1 = "elma";
+let ikinciDeger1 = "erik";
+if (birinciDeger1.length == ikinciDeger1.length) {
+  birinciDeger1 = "artmut";
+}
+//console.log(birinciDeger1);
 /*
 Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
-
 Aşağıdakileri yap:   
    1. String tipinde ve değeri "1999" olan bir değişken oluşturun
    2. Değeri "1999" olan bu String'i değeri 1999 olan bir integer'a dönüştürün
@@ -42,7 +52,9 @@ Aşağıdakileri yap:
 
    İPUCU: Number metoduna bakabilirsin
 */
-
+let degisken1 = "1999";
+degisken1 = Number(degisken1);
+console.log(degisken1);
 /*
 Görev 1d - Çarpma
  
@@ -52,22 +64,29 @@ Aşağıdakileri yaparak carpma isimli fonksiyonu tamamla:
    3. console.log(carpma(7,4)) ile yazdığın fonsiyonu test edin. Console'da sonucu 28 olarak görmelisin.
 */
 
-function carpma(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function carpma(a, b) {
+  let sonuc = a * b;
+  return sonuc;
 }
+let carpmaIslemi = carpma(7, 4);
+console.log(carpmaIslemi);
 
 /* Görev 2 : Köpeğin Yaşı */
 
 /*
 Aşağıdakileri yap:
- 1. Aşağıdaki kopeginYasi fonsiyonunu bir argüman alacak şekilde tanımla.
+ 1. Aşağıdaki kopeginYasi fonksiyonunu bir argüman alacak şekilde tanımla.
  2. Gelen değeri kullanarak köpeğin yaşını hesapla (insanlarda 1 yıl köpeklerde 7 yıla denk gelir)
  3. Hesaplanan köpeğin yaşını dönün.
  */
 
-function kopeginYasi(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function kopeginYasi(insanYasi) {
+  let sonuc = insanYasi * 7;
+  return sonuc;
 }
+console.log(kopeginYasi(5));
+
+/*buraya kodunu yazabilirsin*/
 
 /* Görev 3 */
 /*
